@@ -437,7 +437,7 @@ async function downloadPDF() {
 
       if (f.type === 'checkbox') {
         if (el.checked) {
-          page.drawText('✓', {
+          page.drawText('x', {
             x: f.x + 1,
             y: pdfH - f.y - f.h + 1,
             size: 10,
